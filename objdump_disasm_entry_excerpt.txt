@@ -1,0 +1,80 @@
+
+nc.openbsd:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+0000000000002000 <.init>:
+    2000:	f3 0f 1e fa          	endbr64
+    2004:	48 83 ec 08          	sub    $0x8,%rsp
+    2008:	48 8b 05 d1 7f 00 00 	mov    0x7fd1(%rip),%rax        # 9fe0 <socket@plt+0x77b0>
+    200f:	48 85 c0             	test   %rax,%rax
+    2012:	74 02                	je     2016 <write@plt-0x40a>
+    2014:	ff d0                	call   *%rax
+    2016:	48 83 c4 08          	add    $0x8,%rsp
+    201a:	c3                   	ret
+
+Disassembly of section .plt:
+
+0000000000002020 <.plt>:
+    2020:	ff 35 82 7d 00 00    	push   0x7d82(%rip)        # 9da8 <socket@plt+0x7578>
+    2026:	ff 25 84 7d 00 00    	jmp    *0x7d84(%rip)        # 9db0 <socket@plt+0x7580>
+    202c:	0f 1f 40 00          	nopl   0x0(%rax)
+    2030:	f3 0f 1e fa          	endbr64
+    2034:	68 00 00 00 00       	push   $0x0
+    2039:	e9 e2 ff ff ff       	jmp    2020 <write@plt-0x400>
+    203e:	66 90                	xchg   %ax,%ax
+    2040:	f3 0f 1e fa          	endbr64
+    2044:	68 01 00 00 00       	push   $0x1
+    2049:	e9 d2 ff ff ff       	jmp    2020 <write@plt-0x400>
+    204e:	66 90                	xchg   %ax,%ax
+    2050:	f3 0f 1e fa          	endbr64
+    2054:	68 02 00 00 00       	push   $0x2
+    2059:	e9 c2 ff ff ff       	jmp    2020 <write@plt-0x400>
+    205e:	66 90                	xchg   %ax,%ax
+    2060:	f3 0f 1e fa          	endbr64
+    2064:	68 03 00 00 00       	push   $0x3
+    2069:	e9 b2 ff ff ff       	jmp    2020 <write@plt-0x400>
+    206e:	66 90                	xchg   %ax,%ax
+    2070:	f3 0f 1e fa          	endbr64
+    2074:	68 04 00 00 00       	push   $0x4
+    2079:	e9 a2 ff ff ff       	jmp    2020 <write@plt-0x400>
+    207e:	66 90                	xchg   %ax,%ax
+    2080:	f3 0f 1e fa          	endbr64
+    2084:	68 05 00 00 00       	push   $0x5
+    2089:	e9 92 ff ff ff       	jmp    2020 <write@plt-0x400>
+    208e:	66 90                	xchg   %ax,%ax
+    2090:	f3 0f 1e fa          	endbr64
+    2094:	68 06 00 00 00       	push   $0x6
+    2099:	e9 82 ff ff ff       	jmp    2020 <write@plt-0x400>
+    209e:	66 90                	xchg   %ax,%ax
+    20a0:	f3 0f 1e fa          	endbr64
+    20a4:	68 07 00 00 00       	push   $0x7
+    20a9:	e9 72 ff ff ff       	jmp    2020 <write@plt-0x400>
+    20ae:	66 90                	xchg   %ax,%ax
+    20b0:	f3 0f 1e fa          	endbr64
+    20b4:	68 08 00 00 00       	push   $0x8
+    20b9:	e9 62 ff ff ff       	jmp    2020 <write@plt-0x400>
+    20be:	66 90                	xchg   %ax,%ax
+    20c0:	f3 0f 1e fa          	endbr64
+    20c4:	68 09 00 00 00       	push   $0x9
+    20c9:	e9 52 ff ff ff       	jmp    2020 <write@plt-0x400>
+    20ce:	66 90                	xchg   %ax,%ax
+    20d0:	f3 0f 1e fa          	endbr64
+    20d4:	68 0a 00 00 00       	push   $0xa
+    20d9:	e9 42 ff ff ff       	jmp    2020 <write@plt-0x400>
+    20de:	66 90                	xchg   %ax,%ax
+    20e0:	f3 0f 1e fa          	endbr64
+    20e4:	68 0b 00 00 00       	push   $0xb
+    20e9:	e9 32 ff ff ff       	jmp    2020 <write@plt-0x400>
+    20ee:	66 90                	xchg   %ax,%ax
+    20f0:	f3 0f 1e fa          	endbr64
+    20f4:	68 0c 00 00 00       	push   $0xc
+    20f9:	e9 22 ff ff ff       	jmp    2020 <write@plt-0x400>
+    20fe:	66 90                	xchg   %ax,%ax
+    2100:	f3 0f 1e fa          	endbr64
+    2104:	68 0d 00 00 00       	push   $0xd
+    2109:	e9 12 ff ff ff       	jmp    2020 <write@plt-0x400>
+    210e:	66 90                	xchg   %ax,%ax
+    2110:	f3 0f 1e fa          	endbr64
+    2114:	68 0e 00 00 00       	push   $0xe

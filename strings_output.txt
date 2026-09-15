@@ -1,0 +1,267 @@
+		-4		Use IPv4
+		-6		Use IPv6
+		-C		Send CRLF as line-ending
+		-D		Enable the debug socket option
+		-F		Pass socket fd
+		-I length	TCP receive buffer length
+		-M ttl		Outgoing TTL / Hop Limit
+		-N		Shutdown the network socket after EOF on stdin
+		-O length	TCP send buffer length
+		-P proxyuser	Username for proxy authentication
+		-S		Enable the TCP MD5 signature option
+		-T keyword	TOS value
+		-U		Use UNIX domain socket
+		-V rtable	Specify alternate routing table
+		-W recvlimit	Terminate after receiving a number of packets
+		-X proto	Proxy protocol: "4", "5" (SOCKS) or "connect"
+		-Z		DCCP mode
+		-b		Allow broadcast
+		-d		Detach from stdin
+		-h		This help text
+		-i interval	Delay interval for lines sent, ports scanned
+		-k		Keep inbound sockets open for multiple connects
+		-l		Listen mode, for inbound connects
+		-m minttl	Minimum incoming TTL / Hop Limit
+		-n		Suppress name/port resolutions
+		-p port		Specify local port for remote connects
+		-q secs		quit after EOF on stdin and delay of secs
+		-r		Randomize remote ports
+		-s sourceaddr	Local source address
+		-t		Answer TELNET negotiation
+		-u		UDP mode
+		-v		Verbose
+		-w timeout	Timeout for connects and final net reads
+		-x addr[:port]	Specify proxy address and port
+		-z		Zero-I/O mode [used for scanning]
+	  [-m minttl] [-O length] [-P proxy_username] [-p source_port]
+	  [-q seconds] [-s sourceaddr] [-T keyword] [-V rtable] [-W recvlimit]
+	  [-w timeout] [-X proxy_protocol] [-x proxy_address[:port]]
+	  [destination] [port]
+	Command Summary:
+	Port numbers can be individual or ranges: lo-hi [inclusive]
+ %s port [%s/%s] succeeded!
+%s on %s
+%s on %s %s
+.dynamic
+.dynstr
+.dynsym
+.eh_frame
+.eh_frame_hdr
+.fini_array
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.gnu_debuglink
+.init_array
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.note.gnu.property
+.plt.got
+.plt.sec
+.rela.dyn
+.rela.plt
+.rodata
+.shstrtab
+/lib64/ld-linux-x86-64.so.2
+/recv.sock
+/tmp/nc-XXXXXX
+0.0.0.0
+46bCDdFhI:i:klM:m:NnO:P:p:q:rSs:T:tUuV:vW:w:X:x:Zz
+6ffbcc5b666397efd2cdf42e220db3bc1b4484.debug
+AUATSH
+AVAUATS
+AWAVAUATSH
+AWAVAUATSL
+Address type not supported
+CONNECT %s:%d HTTP/1.0
+CONNECT [%s]:%d HTTP/1.0
+Cannot pass file descriptor to tty
+Client program and identd report different user-ids
+Command not supported
+Connection not allowed by ruleset
+Connection received
+Connection refused
+Connection to %s
+Couldn't set SO_REUSEADDR
+Couldn't set SO_REUSEPORT
+GLIBC_2.10
+GLIBC_2.14
+GLIBC_2.15
+GLIBC_2.2.5
+GLIBC_2.25
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.34
+GLIBC_2.36
+GLIBC_2.38
+GLIBC_2.4
+GLIBC_2.8
+General SOCKS server failure
+HTTP/1.0 200 
+HTTP/1.0 407 
+HTTP/1.1 200 
+HTTP/1.1 407 
+Host unreachable
+Invalid hostname
+LIBBSD_0.2
+Listening
+Network unreachable
+OpenBSD netcat (Debian patchlevel 1.226-1ubuntu2)
+Proxy auth response too long
+Proxy authentication failed
+Proxy error: "%s"
+Proxy password for %s@%s: 
+Proxy username/password too long
+Proxy-Authorization: Basic %s
+Request rejected or failed
+SOCKS server cannot connect to identd on the client
+TCP MD5SIG password: 
+TCP receive window %s: %s
+TCP send window %s: %s
+TTL expired
+Too many authentication failures
+Too many proxy headers received
+Unable to read TCP MD5SIG password
+Unable to read proxy passphrase
+Unknown error
+Unknown proxy protocol %d
+Write Error!
+[A\A]A^A_]
+[A\A]A^]
+[A\A]]
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__asprintf_chk
+__b64_ntop
+__ctype_b_loc
+__cxa_finalize
+__errno_location
+__explicit_bzero_chk
+__fdelt_chk
+__fprintf_chk
+__gmon_start__
+__isoc23_strtol
+__libc_start_main
+__snprintf_chk
+__stack_chk_fail
+accept
+accept4
+arc4random_uniform
+asprintf
+authentication method negotiation failed
+bind failed
+can't set O_NONBLOCK - timeout not available
+cannot use -F and -U
+cannot use -Z and -U
+cannot use -z and -l
+cannot use port with -U
+connect
+connect to %s (%s) port %s (%s) %s
+connect to %s port %s (%s) %s
+connection failed, SOCKSv4 error: %s
+connection failed, SOCKSv5 error: %s
+connection failed, unsupported address type
+critical
+freeaddrinfo
+fwrite
+gai_strerror
+garbage proxy port delimiter
+getaddrinfo
+getaddrinfo for host "%s" port %s: %s
+getaddrinfo("%.64s", "%.64s"): %s
+getaddrinfo: %s
+getnameinfo
+getnameinfo: %s
+getopt
+getservbyname
+getservbyport
+getsockname
+getsockopt
+getsockopt error: %s
+host name too long for SOCKS5
+hostname too long
+illegal tos value %s
+inetcontrol
+internal error: addrlen < res->ai_addrlen
+internal error: silly AF
+interval %s: %s
+isatty
+libbsd.so.0
+libc.so.6
+libresolv.so.2
+listen
+lowcost
+lowdelay
+memchr
+memcpy
+memmove
+minttl is %s
+missing closing bracket in proxy
+missing port number
+missing socket pathname
+mkdtemp
+must use -l with -k
+no alternate routing table support available
+no proxy support for DCCP mode
+no proxy support for UDP mode
+no proxy support for listen
+no proxy support for local source address
+no proxy support for unix sockets
+optarg
+optind
+polling error
+port number %s: %s
+proxy read
+proxy read too long
+quit timer %s: %s
+read failed (%zu/18)
+read failed (%zu/3)
+read failed (%zu/4)
+read failed (%zu/6)
+read failed (%zu/8)
+readpassphrase
+receive limit %s: %s
+recvfrom
+reliability
+select
+select error: %s
+sendmsg
+sendmsg: unexpected return value %zd
+service "%s" unknown
+set IP TTL
+set IP ToS
+set IP min TTL
+set IPv6 min hop count
+set IPv6 traffic class
+set IPv6 unicast hops
+set TCP receive buffer size
+set TCP send buffer size
+setsockopt
+shutdown
+signal
+socket
+stderr
+strcasecmp
+strchr
+strcmp
+strcspn
+strdup
+strlcat
+strlcpy
+strlen
+strncmp
+strncpy
+strrchr
+strtonum
+throughput
+timed out
+timeout %s: %s
+unknown port "%.64s"
+unlink
+unsupported proxy protocol
+usage: nc [-46CDdFhklNnrStUuvZz] [-I length] [-i interval] [-M ttl]
+write failed (%zu/%d)
+write failed (%zu/%zu)
+write failed (%zu/2)
+write failed (%zu/3)
